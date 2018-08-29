@@ -1,0 +1,13 @@
+{
+  "name": "card-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
