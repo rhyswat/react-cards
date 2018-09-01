@@ -9,6 +9,7 @@ class DealHandButton extends React.Component {
     }
 
     dealHand() {
+        console.log('dealing')
         this.props.cardStore.drawCards();
     }
 

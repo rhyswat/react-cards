@@ -7,19 +7,39 @@
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.NavBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.NavBar ul li {
+  display: inline;
+}
+
+.NavBar ul li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  min-width: 100px;
+  width: 100px;
+  max-width: 100px;
+}
+
+.NavBar a:hover {
+  background: black;
+}
+
+.NavBar a:visited {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
+.Main {
+  margin: 20px;
 }
 
 .CardTable {
@@ -27,15 +47,31 @@
   text-align: center;
   border: 3px solid darkgreen;
   border-radius: 5px;
+  position: relative;
   padding: 10px;
-  margin: 20px;
   min-width: 80%;
   min-height: 350px;
   background: green;
 }
 
-.PokerHand .Card {
-  margin: 50px;
+.CardTable button {
+  margin: 10px;
+}
+
+.CardTable .PokerHand {
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+.CardTable .PokerHand .Card {
+  margin: 25px;
+}
+
+.CardTable .PokerHand .Card img {
+  width: 100px;
+  max-width: 100px;
+  min-width: 100px;
 }
 
 @keyframes App-logo-spin {

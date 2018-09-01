@@ -7,10 +7,12 @@ import PokerHand from './PokerHand';
 class CardTable extends React.Component {
 
     render() {
-        return <div className="CardTable">
-            <div><DealHandButton /></div>
-            <PokerHand />
-        </div>;
+        return (
+            <div className="CardTable">
+                <div><DealHandButton /></div>
+                <div><PokerHand /> </div>
+            </div>
+        );
     }
 }
 
