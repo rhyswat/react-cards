@@ -17,7 +17,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build && webpack --config webpack.sw.config.js",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
     "unit": "mocha",
     "serve": "serve -s build"
   },
@@ -29,7 +28,7 @@
     "cra-append-sw": "^2.5.0",
     "mocha": "^5.2.0",
     "react-scripts": "1.1.4",
-    "serve": "^10.0.0",
+    "serve": "^10.0.1",
     "sw-toolbox": "^3.6.0",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0"
